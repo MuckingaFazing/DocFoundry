@@ -43,10 +43,11 @@ http://127.0.0.1:8983/solr/#/
 ## Authentication
 
 To enable authentication, run the following: 
+
    ```bash
-   bin/solr auth enable -type basicAuth -prompt true -z 127.0.0.1:9983
+   brew install solr
+   solr start -e cloud
+   solr stop -all
+   ```
 
-
-### Credentials
-username admin
-password Password
+   
