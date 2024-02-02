@@ -1,29 +1,17 @@
 package doc.foundry
 
-/*
-import org.apache.camel.CamelContext
+
+import doc.foundry.routes.MyRouteBuilder
 import org.apache.camel.main.Main
-*/
+
 
 //lateinit var camelContext: CamelContext
 
 fun main(args: Array<String>) {
-    println("Program arguments: ${args.joinToString()}")
-   /* val mft = CamelMain()
-    //mft.configure().addRoutesBuilder(Routes::class.java)
-    mft.run()
-*/
-
+    val main = Main()
+    main.configure().addRoutesBuilder(MyRouteBuilder())
+    main.run()
+    println("Camel Started")
 
 }
 
-
-/*class CamelMain : Main() {
-    // Implementation methods
-    // -------------------------------------------------------------------------
-    @Throws(Exception::class)
-    public override fun doInit() {
-        super.doInit()
-        camelContext = this.camelContext
-    }
-}*/
