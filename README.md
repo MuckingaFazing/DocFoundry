@@ -28,4 +28,10 @@ AwesomeDocIndexer is a comprehensive solution for storing, managing, and indexin
 
    ```bash
    brew install solr
+   solr start -e cloud
+   solr stop -all
+
+### Copy the following 2 files into your directory if they are missing:
+solr.xml and zoo.cfg - they are both located in the solr folder of this project
+/usr/local/Cellar/solr/9.4.1/server/solr/
 
