@@ -50,3 +50,13 @@ To enable authentication, run the following:
 
 Navigate to http://127.0.0.1:8983/solr/#/~security to setup users/roles/permissions
 
+
+## UI(React)
+
+Navigate to the ui folder in your terminal:
+   ```bash
+   npm run dev
+   ```
+UI located at: http://localhost:3000
+
+
