@@ -48,4 +48,5 @@ To enable authentication, run the following:
    solr auth enable -type basicAuth -prompt true -z 127.0.0.1:9983
    ```
 
+Navigate to http://127.0.0.1:8983/solr/#/~security to setup users/roles/permissions
 
