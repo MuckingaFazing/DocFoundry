@@ -59,4 +59,9 @@ Navigate to the ui folder in your terminal:
    ```
 UI located at: http://localhost:3000
 
-
+React Libraries installed:
+   ```bash
+   npm i clsx framer-motion tailwind-merge @iconify/react
+   npm i @nextui-org/react framer-motion
+   ```
+   
