@@ -63,5 +63,6 @@ React Libraries installed:
    ```bash
    npm i clsx framer-motion tailwind-merge @iconify/react
    npm i @nextui-org/react framer-motion
+   npm install primereact
    ```
    
